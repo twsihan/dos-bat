@@ -4,7 +4,7 @@ call devVar.bat
 
 cd /d %NGINX_PATH%
 
-start nginx.exe
+%RUNHIDCON% nginx.exe
 
 pause
 exit

@@ -2,7 +2,7 @@
 
 call devVar.bat
 
-start %RUNHIDCON% %MEMCACHE_PATH%\memcached.exe -d stop
+%RUNHIDCON% %MEMCACHE_PATH%\memcached.exe -d stop
 
 pause
 exit
