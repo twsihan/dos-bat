@@ -2,12 +2,16 @@
 
 set RUNHIDCON="%~dp0RunHiddenConsole.exe"
 
+set NGINX_PATH=D:\Nginx
+
 set MySQL_PATH=D:\MySQL
+
+set PHP_PATH=D:\PHP
 
 set MEMCACHE_PATH=D:\Memcache
 
-set JAVA_HOME=D:\Java\jre1.8.0_151
+set REDIS_PATH=D:\Redis
 
-set NGINX_PATH=D:\Nginx
+set MONGODB_PATH=D:\MongoDB
 
-set PHP_PATH=D:\PHP
+
