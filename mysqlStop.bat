@@ -7,5 +7,4 @@ rem mysqld.exe --remove MySQL
 
 taskkill /F /IM mysqld.exe > nul
 
-pause
 exit

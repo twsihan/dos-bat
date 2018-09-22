@@ -13,5 +13,3 @@ set MEMCACHE_PATH=D:\Memcache
 set REDIS_PATH=D:\Redis
 
 set MONGODB_PATH=D:\MongoDB
-
-

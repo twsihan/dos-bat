@@ -9,5 +9,5 @@ rem net start MySQL
 
 %RUNHIDCON% mysqld.exe
 
-pause
+rem pause
 exit
