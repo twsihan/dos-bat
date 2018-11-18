@@ -1,15 +1,15 @@
 @echo off
 
-set RUNHIDCON="%~dp0RunHiddenConsole.exe"
+set RUNHIDCON=%~dp0RunHiddenConsole.exe
 
-set NGINX_PATH=D:\Nginx
+set NGINX_PATH=D:/Nginx
 
-set MySQL_PATH=D:\MySQL
+set MySQL_PATH=D:/MySQL
 
-set PHP_PATH=D:\PHP
+set PHP_PATH=D:/PHP
 
-set MEMCACHE_PATH=D:\Memcache
+set MEMCACHE_PATH=D:/Memcache
 
-set REDIS_PATH=D:\Redis
+set REDIS_PATH=D:/Redis
 
-set MONGODB_PATH=D:\MongoDB
+set MONGODB_PATH=D:/MongoDB
