@@ -6,5 +6,4 @@
 
 自定义源
 --
- - 获取配置 [文件](https://github.com/lukesampson/scoop)
- - 或使用 Scoop create https://github.com/twsihan/win-svescrt 创建源文件
+ - scoop bucket add twsihan https://github.com/twsihan/scoop-bucket
