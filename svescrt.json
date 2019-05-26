@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/twsihan/win-svescrt",
+    "description": "Service script for Windows",
+    "version":  "0.0.1",
+    "license": "MIT",
+    "env_set": {
+        "SVESCRT_HOME": "$dir"
+    },
+    "url":  "https://github.com/twsihan/win-svescrt",
+    "persist": "config",
+    "hash":  "",
+    "bin":[
+        "bin\\RunHiddenConsole.exe.exe",
+        "bin\\nginxStart.bat",
+        "bin\\nginxRestart.bat",
+        "bin\\nginxStop.bat",
+        "bin\\mysqlStart.bat",
+        "bin\\mysqlRestart.bat",
+        "bin\\mysqlStop.bat",
+        "bin\\phpStart.bat",
+        "bin\\phpRestart.bat",
+        "bin\\phpStop.bat",
+        "bin\\memcacheStart.bat",
+        "bin\\memcacheRestart.bat",
+        "bin\\memcacheStop.bat",
+        "bin\\redisStart.bat",
+        "bin\\redisRestart.bat",
+        "bin\\redisStop.bat",
+        "bin\\mongodbStart.bat",
+        "bin\\mongodbRestart.bat",
+        "bin\\mongodbStop.bat"
+    ]
+}
