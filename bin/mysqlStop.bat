@@ -1,7 +1,7 @@
 @echo off
 
-rem call devVar.bat
-rem cd /d %MySQL_PATH%\bin
+rem config/svescrt.bat
+rem cd /d %MYSQL_HOME%\bin
 rem net stop MySQL
 rem mysqld.exe --remove MySQL
 
