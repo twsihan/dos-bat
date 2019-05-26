@@ -1,10 +1,9 @@
 @echo off
 
-call config/svescrt.bat
+call %SVESCRT_HOME%/config/svescrt.bat
 
 cd /d %NGINX_HOME%
 
 svescrt nginx.exe
 
 pause
-exit

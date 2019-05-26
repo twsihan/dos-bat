@@ -1,6 +1,6 @@
 @echo off
 
-call config/svescrt.bat
+call %SVESCRT_HOME%/config/svescrt.bat
 
 cd /d %MYSQL_HOME%/bin
 
@@ -10,4 +10,3 @@ rem net start MySQL
 svescrt mysqld.exe
 
 pause
-exit

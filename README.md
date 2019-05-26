@@ -1,7 +1,8 @@
 配合 Scoop 包管理服务
 --
- - [Github 地址](https://github.com/lukesampson/scoop) 
+ - [Github 地址](https://github.com/lukesampson/scoop)
  - 集成环境设置: persist/svescrt/config/svescrt.bat
+ - 单独使用设置 SVESCRT_HOME 及 PATH 目录添加 %SVESCRT_HOME%\bin
 
 Scoop bucket
 --
@@ -11,10 +12,6 @@ Scoop bucket
     "description": "Service script for Windows",
     "version": "0.0.1",
     "license": "MIT",
-    "checkver": {
-        "url": "https://github.com/twsihan/win-svescrt/releases",
-        "re": "archive/v([\\d.-]+).zip"
-    },
     "url": "https://github.com/twsihan/win-svescrt/archive/v0.0.1.zip",
     "hash": "236C307BFB6F46F509D7B9249B5D320DB3D8CFB11140C9714F3E6E61B3135BEA",
     "checkver": {
