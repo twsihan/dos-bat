@@ -2,8 +2,6 @@
 
 call %SVESCRT_HOME%/config/svescrt.bat
 
-cd /d %NGINX_HOME%
-
-svescrt nginx.exe -s reload
+svescrt %NGINX_HOME%/nginx.exe -p %NGINX_HOME% -s reload
 
 pause

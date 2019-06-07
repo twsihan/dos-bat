@@ -2,6 +2,6 @@
 
 call %SVESCRT_HOME%/config/svescrt.bat
 
-svescrt %REDIS_HOME%\redis-server.exe
+svescrt %REDIS_HOME%/redis-server.exe
 
 pause

@@ -4,8 +4,6 @@ call %SVESCRT_HOME%/config/svescrt.bat
 
 taskkill /F /IM mysqld.exe > nul
 
-cd /d %MYSQL_HOME%/bin
-
-svescrt mysqld.exe
+svescrt %MYSQL_HOME%/bin/mysqld.exe
 
 pause
